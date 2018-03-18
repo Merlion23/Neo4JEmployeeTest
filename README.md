@@ -34,7 +34,7 @@ Data File Path : https://github.com/Merlion23/Neo4JEmployeeTest/data/employees.c
 2. To access Employee data from a Client, use the following URL
 
 **Neo4j Browser** : http://ec2-34-228-20-122.compute-1.amazonaws.com:7474/browser/
-username: neo4j password: admin
+``username: neo4j password: admin``
 
 **Web Browser** : http://ec2-34-228-20-122.compute-1.amazonaws.com:3000/
 
