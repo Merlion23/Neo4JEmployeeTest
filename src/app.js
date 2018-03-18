@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(express.static(path.join(__dirname, 'public')));
 
-const driver = neo4j.driver('bolt://localhost:7687', neo4j.auth.basic('neo4j', 'admin'));
+const driver = neo4j.driver('bolt://http://ec2-34-228-20-122.compute-1.amazonaws.com:7687', neo4j.auth.basic('neo4j', 'admin'));
 const session = driver.session();
 
 app.get('/', function(req, res){
@@ -56,7 +56,7 @@ app.post('/employees/add',function(req, res){
     res.redirect('/');
 });
 
-app.listen(3010)
-console.log('Server Started on Port 3010');
+app.listen(3000)
+console.log('Server Started on Port 3000');
 
 module.exports = app;
