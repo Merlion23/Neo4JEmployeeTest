@@ -24,9 +24,9 @@
 
 1. The Employee node was created using the Neo4j CSV load command :
  
- LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/Merlion23/Neo4JEmployeeTest/EMP1.0/data/employees.csv' AS line
+ '''LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/Merlion23/Neo4JEmployeeTest/EMP1.0/data/employees.csv' AS line
  CREATE (n:Employees { name: line.name, emp_id: toInteger(line.emp_id)})
- RETURN n.name AS name, n.emp_id AS emp_id
+ RETURN n.name AS name, n.emp_id AS emp_id'''
  
 Data File Path : https://github.com/Merlion23Neo4JEmployeeTest/data/employees.csv
 
