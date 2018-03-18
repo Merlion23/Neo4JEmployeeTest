@@ -1,0 +1,27 @@
+{
+  "name": "ubuntu",
+  "version": "1.0.0",
+  "main": "app.js",
+  "description": "employee_assignment",
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "ejs": "^2.5.7",
+    "morgan": "*",
+    "neo4j-driver": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Merlion23/repository.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Merlion23/repository/issues"
+  },
+  "homepage": "https://github.com/Merlion23/repository#readme"
+}
