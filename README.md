@@ -18,6 +18,7 @@
 ## Stack
 * Neo4j Bolt JavaScript Driver
 * Neo4j
+* Node.js
 * HTML Forms
 
 ## Instructions and notes on app
