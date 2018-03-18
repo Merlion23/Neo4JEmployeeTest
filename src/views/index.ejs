@@ -1,0 +1,18 @@
+<h1>Enter New Employees</h1>
+<form method="POST" action="/employees/add">
+    <label>Employee Name</label>
+    <input type="text" name="name">
+    <br><br>
+    <label>Employee ID</label>
+    <input type="number" name="emp_id">
+    <br><br>
+    <input type="submit" value="Submit">
+    <br>
+</form>
+
+<h1>Employees</h1>
+<ul>
+<% employees.forEach(function(employees){ %>
+    <li><%=employees.name%>&emsp; <%=employees.emp_id%></li>
+<% }) %>
+</ul>
