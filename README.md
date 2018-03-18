@@ -53,4 +53,4 @@ When a new employee record with the id is created, the new record will written t
 
 ## AWS
 Neo4j community edition had been deployed on an EC2 instance : ec2-34-228-20-122.compute-1.amazonaws.com
-In addition, Node.js, NPM (ver 6.11.5) and Nodemon (ver 1.17.2) have been installed in the said environment. Nodemon is crrently active to monitor for any changes in the node.js application.
+In addition, Node.js, NPM (ver 6.11.5) and Nodemon (ver 1.17.2) have been installed in the said environment. Nodemon is currently active to monitor for any changes in the node.js application.
