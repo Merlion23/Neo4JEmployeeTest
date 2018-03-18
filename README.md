@@ -16,9 +16,9 @@
 6. Deploy your app along with a Neo4J instance to an AWS EC2 instance  (or any other cloud) so that we can see it in action without going through the setup process.
 
 ## Stack
-. Neo4j Bolt JavaScript Driver
-. Neo4j
-. HTML Forms
+* Neo4j Bolt JavaScript Driver
+* Neo4j
+* HTML Forms
 
 ## Instructions and notes on app
 
