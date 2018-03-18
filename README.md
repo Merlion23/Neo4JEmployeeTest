@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/Merlion23/Neo4JEmployeeTest/blob/EMP1.0/img/screen.png)
 
-# Objectives
+## Objectives
 1. Create an Employee node that will take 2 params - a String and an int. The String value will populate the name property of the new Employee node, the int value will populate the emp_id value. 
 
 2. Return all Employee nodes to a client. 
@@ -15,6 +15,13 @@
 
 6. Deploy your app along with a Neo4J instance to an AWS EC2 instance  (or any other cloud) so that we can see it in action without going through the setup process.
 
-# Instructions on usage
+## Stack
+. Neo4j Bolt JavaScript Driver
+. Neo4j
+. HTML Forms
 
+## Instructions and notes on app
+
+1. The Employee node was created using the Neo4j CSV load command :
+   
 
