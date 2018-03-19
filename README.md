@@ -42,7 +42,9 @@ Data File Path : https://github.com/Merlion23/Neo4JEmployeeTest/data/employees.c
 
 File path:
 package.json : https://github.com/Merlion23/Neo4JEmployeeTest/package.json
+
 Main : https://github.com/Merlion23/Neo4JEmployeeTest/src/app.js
+
 UI : https://github.com/Merlion23/Neo4JEmployeeTest/src/views/index.ejs
 
 ## Instructions on usage
