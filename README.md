@@ -7,13 +7,13 @@
 
 2. Return all Employee nodes to a client. 
 
-3. Check your code into a github repo along with instructions on how to set up/use the API. 
+3. Check the code into a github repo along with instructions on how to set up/use the API. 
 
 4. Include instructions on how to use it in the README.md file in the github repo. 
 
 5. Develop a simple UI that can be used directly from the web browser to drive the API.
 
-6. Deploy your app along with a Neo4J instance to an AWS EC2 instance (or any other cloud).
+6. Deploy the app along with a Neo4J instance to an AWS EC2 instance (or any other cloud).
 
 ## Stack
 * Neo4j Bolt JavaScript Driver
